@@ -63,3 +63,23 @@ export const Spacing = {
 
 export const BottomTabInset = Platform.select({ ios: 50, android: 80 }) ?? 0;
 export const MaxContentWidth = 800;
+
+// Premium Auth Colors
+export const AuthColors = {
+  primary: '#8B5CF6',
+  primaryLight: '#EC4899', // Used for gradients (magenta/pink)
+  background: '#0B0B14',
+  glass: 'rgba(21, 21, 37, 0.85)',
+  glassAlt: 'rgba(30, 30, 45, 0.85)',
+  glassLight: 'rgba(255, 255, 255, 0.03)',
+  textPrimary: '#FFFFFF',
+  textSecondary: '#A1A1AA',
+  error: '#EF4444',
+  errorLight: 'rgba(239, 68, 68, 0.15)',
+  success: '#10B981',
+  successLight: 'rgba(16, 185, 129, 0.15)',
+  warning: '#F59E0B',
+  warningLight: 'rgba(245, 158, 11, 0.15)',
+  shadow: 'rgba(139, 92, 246, 0.25)', // Neon glow
+  border: 'rgba(255, 255, 255, 0.08)',
+} as const;
